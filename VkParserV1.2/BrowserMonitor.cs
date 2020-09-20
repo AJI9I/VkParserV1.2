@@ -183,8 +183,8 @@ namespace VkParserV1._2
                 //http://oauth.vk.com/authorize?client_id=
                     if (LenghtWebcontrolAbsoluteUrl == "http://oauth.vk.com/authorize?client_id=")
                     {
-                        webControl1.ExecuteJavascript("document.getElementByName('email').value='yaaal@mail.ru';");
-                        webControl1.ExecuteJavascript("document.getElementByName('pass').value='3фзф3ф1989';");
+                        webControl1.ExecuteJavascript("document.getElementByName('email').value='';");
+                        webControl1.ExecuteJavascript("document.getElementByName('pass').value='';");
                         webControl1.ExecuteJavascript("document.getElementById('install_allow').click();");
 
 
@@ -228,8 +228,8 @@ namespace VkParserV1._2
                     #region операция авторизации
                 if (WebcontrolAbsoluteUrl == "https://vk.com/")
                     {
-                        webControl1.ExecuteJavascript("document.getElementById('index_email').value='yaaal@mail.ru';");
-                        webControl1.ExecuteJavascript("document.getElementById('index_pass').value='3фзф3ф1989';");
+                        webControl1.ExecuteJavascript("document.getElementById('index_email').value='';");
+                        webControl1.ExecuteJavascript("document.getElementById('index_pass').value='';");
                         webControl1.ExecuteJavascript("document.getElementById('index_login_button').click();");
                     }
                 #endregion
